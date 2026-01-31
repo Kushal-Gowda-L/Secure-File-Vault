@@ -1,8 +1,8 @@
 from dropbox.oauth import DropboxOAuth2FlowNoRedirect
 import sys
 
-APP_KEY = "n4isl8g6wbizipd"
-APP_SECRET = "ncvda71v5mrj2pf"
+APP_KEY = "YOUR_APP_KEY"
+APP_SECRET = "YOUR_APP_SECRET"
 
 auth_flow = DropboxOAuth2FlowNoRedirect(
     APP_KEY,
