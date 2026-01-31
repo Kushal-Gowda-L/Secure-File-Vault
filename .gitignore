@@ -1,0 +1,19 @@
+# Environment & secrets
+.env
+
+# Virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Cryptographic keys
+keys/
+*.pem
+
+# Local runtime data
+local_temp/
+vault/
+vault_cache/
+users_local.json
